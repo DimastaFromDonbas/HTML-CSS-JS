@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+ 
+@font-face {
+  font-family: B20 Sans;
+  src: url("../fonts/B20Sans.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+html,
+body,
+button {
+  padding: 0;
+  margin: 0;
+}
+ 
+html {
+  min-height: 100%;
+}
+
+body {
+  font-family: B20Sans, sans-serif;
+  font-size: 14px;
+  line-height: 1.214285714285714;
+  font-weight: 400;
+  touch-action: pan-x pan-y;
+
+}
+ 
+select:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+ 
+textarea {
+  resize: none !important;
+}
+ 
+b,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: inherit;
+}
+ 
+img {
+  max-width: 100%;
+}
+header {
+  max-width: 100%;
+}
+main {
+  max-width: 100%;
+}
+footer {
+  height:659px ;
+  max-width: 100%;
+  background: #242132;
+  color: #FFF;
+  font-size: 17px;
+}
+.footer_logo img{
+  margin-bottom: 72px;
+  margin-left: 146px;
+}
+.footer_logo li {
+  margin-left: 174px;
+}
+
+.footer_cotainer_main {
+  
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px
+}
+.footer_select_contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_work_ua {
+ font-family: 'B20 Sans';
+ font-size: 15px;
+ 
+ margin: 0px;
+ right: 827px;
+     display: flex;
+    justify-content: center;
+    padding-top: 114px;
+}
+
+h3 {
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+a{
+  text-decoration: none
+}
+li {
+    list-style-type: none; 
+    line-height: 30px;
+}
+.footer_logo li a {
+  color: white;
+}
+.footer_lengvich li a {
+  color: gray;
+}
+.footer_lengvich a:hover{
+  color: white;
+}
+p {
+  color: white;
+}
+.footer_work_ua span {
+  color: #CE2636;
+}
+.footer_contacts p span {
+  color: white;
+}
+.parametr {
+  position: relative;
+  bottom: 4px;
+}
+.footer_contacts img{
+margin-right: 8px;
+}
+.footer_lengvich ul {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 350px;
+}
+
+.margin1 {
+  margin-right: 95px;
+  margin-top: 27px;
+  margin-left: -155px
+}
+.margin2 {
+  margin-top: 91px;
+}
+.footer_lengvich a {
+  font-size: 17px;
+}
+.footer_contacts {
+      margin-top: 30px;
+      margin-right: 206px;
+}
+
+.footer_select_contacts {
+  margin-right: 89px;
+}
+.footer_logo {
+      margin-left: -38px;
+}
+
+.footer_contacts p {
+  margin-top: 0px;
+}
+.fopter_cotainer {
+  max-width: 100%;
+  position: relative;
+  top: 69px;
+}

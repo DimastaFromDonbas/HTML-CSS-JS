@@ -1,0 +1,237 @@
+.faq {
+	background: #F8F8F8;
+}
+
+.faq .accordion {
+    display: flex;
+    height: 490px;
+    padding-left: 80px;
+    padding-top: 80px;
+    justify-content: space-around;
+    width: 1000px;
+    position: relative;
+    margin-left: 134px;
+    margin-right: 0px;
+}
+.faq .accordion .accordion-item {
+	background: #fff;
+    padding: 19px;
+    border-radius: 5px;
+    width: 572px;
+    margin: 10px;
+}
+.faq .accordion .accordion-item .accordion-item-content  {
+	display: none;
+	padding: 20px 0 0;
+}
+.faq .accordion .accordion-item.show .accordion-item-content  {
+	display: block;
+}
+
+.faq .accordion .accordion-item-header {
+	font-family: PT Sans Narrow;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 22px;
+	color: #4F4F4F;
+	position: relative;
+	cursor: pointer;
+}
+.faq .accordion .accordion-item-header:before  {
+    content: "+";
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 35px;
+    font-family: 'B20SANS';
+    font-weight: normal;
+    color: rgba(113, 62, 139, 1);
+}
+.faq .accordion .accordion-item.show .accordion-item-header:before {
+	content: "-";
+}
+
+.faq .accordion .accordion-item-content {
+	font-family: B20 Sans;
+	font-size: 17px;
+	line-height: 25px;
+	color: #494949;
+}
+.accordion-width {
+	 max-width: 682px;
+}
+.faq_header_cont h2 {
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 45px;
+	text-transform: uppercase;
+	color: #333333;
+}
+.faq_header {
+	display: flex;
+	justify-content: space-around;
+}
+#bt1 {
+	position: relative;
+	color: white;
+	background: linear-gradient(29.09deg, #713E8B 35.23%, #D4242F 82.42%, #713E8B 122.62%);
+	border-radius: 30px;
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+    width: 290px;
+    height: 50px;
+    border: 0px;
+    position: relative;
+    right: 70px;
+    cursor: pointer;
+}
+#bt2 {
+	width: 290px;
+    height: 50px;
+	position: relative;
+	background: #FFFFFF;
+	border: 1px solid #713E8B;
+	border-radius: 30px;
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 26px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #713E8B;
+	right: 39px;
+	cursor: pointer;
+}
+.faq_button {
+	position: relative;
+    top: 67px;
+    right: 42px;
+}
+.faq_header_cont {
+	position: relative;
+    top: 29px;
+    left: 112px;
+}
+.accordion {
+	position: relative;
+    left: 247px;
+}
+.accordion-width {
+	max-width: 642px;
+}
+
+.social_networks_header h2 {
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 35px;
+	line-height: 45px;
+	text-transform: uppercase;
+	color: #4F4F4F;
+	position: relative;
+}
+.social_networks_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 84px;
+    padding-top: 114px;
+}
+.social_networks_color1 a{
+	font-family: 'PT Sans Narrow';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 32px;
+	text-transform: uppercase;
+	color: #4F4F4F;
+	position: relative;
+    top: -19px;
+    left: 7px;
+}
+.social_networks_color2 a {
+	font-family: 'B20 Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 25px;
+	color: #4F4F4F;
+}
+.social_networks_icon_flex1 {
+	width: 115px;
+	height: 145px;
+}
+.social_networks_icon {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	
+}
+.social_networks_photo img {
+	margin-right: 30px;
+	width: 285px;
+}
+.social_networks_photo img:first-child {
+  margin-left: 10px;
+}
+.social_networks_photo img:last-child  {
+ margin-right: 0px;
+}
+.social_networks_icon_flex1 img {
+	position: relative;
+    top: -48px;
+    left: 30px;
+}
+.social_networks_pos1 img {
+	top: 6px;
+    left: 5px;
+}
+.wh1 img {
+	left: 36px;
+}
+#pos1 {
+	position: relative;
+	left: 308px;
+}
+#pos2 {
+	position: relative;
+	right: 308px;
+}
+.social_networks {
+	
+	max-width: 100%;
+	background-color: #F8F8F8;
+}
+.social_networks_photo {
+	position: relative;
+}
+.faq_container {
+	max-width: 100%;
+
+}
+.useful_information{
+	max-width: 100%;
+}
+.about_project {
+	max-width: 100%;
+}
+.advertising_banner {
+	max-width: 100%;
+}
+.last_block {
+	max-width: 100%;
+}
+
+.social_networks_flex {
+	display: flex;
+    flex-direction: column;
+}
